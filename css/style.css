@@ -20,6 +20,10 @@ h2 {
   font-size: 30px;
 }
 
+input:focus {
+  outline: none;
+}
+
 div.wrapper {
   width: 1000px;
   margin: auto;
@@ -51,11 +55,8 @@ div.content-box {
   padding: 7px;
 }
 
-.movies-table tr:nth-child(2n) {
-}
-
 .movies-table tr:nth-child(2n + 1) {
-  background-color: var(--table-first-background-color);
+  background-color: var(--table-background-color);
 }
 
 .movies-table img {
@@ -80,4 +81,36 @@ div.content-box {
 
 .shortcut-th {
   width: 150px;
+}
+
+.visitor-box {
+  background-color: var(--visitor-box-color);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px;
+}
+
+#nickname {
+  background-color: var(--nickname-field-color);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  border: none;
+}
+
+.movie-alias {
+  margin-right: 10px;
+}
+
+.submit-button {
+  position: relative;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: var(--content-box-color);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  left: 170px;
 }

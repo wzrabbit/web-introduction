@@ -5,5 +5,8 @@
   --text-color: #cccccc;
 
   --table-title-color: #fff29c;
-  --table-first-background-color: #1b1248;
+  --table-background-color: #1b1248;
+
+  --visitor-box-color: #1b1248;
+  --nickname-field-color: #0f0a28;
 }
