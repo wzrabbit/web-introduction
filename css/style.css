@@ -5,6 +5,8 @@
   padding: 0;
   font-family: 'Pretendard';
   box-sizing: border-box;
+  font-size: 20px;
+  color: var(--text-color);
 }
 
 html {
@@ -16,11 +18,6 @@ h2 {
   margin-bottom: 10px;
   color: var(--h2-color);
   font-size: 30px;
-}
-
-p {
-  color: var(--p-color);
-  font-size: 20px;
 }
 
 div.wrapper {
@@ -35,4 +32,52 @@ div.content-box {
   border: 3px solid var(--content-box-border-color);
   background-color: var(--content-box-color);
   border-radius: 20px;
+}
+
+.movies-table {
+  border: none;
+  margin: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.movies-table th {
+  height: 40px;
+}
+
+.movies-table td {
+  padding: 7px;
+}
+
+.movies-table tr:nth-child(2n) {
+}
+
+.movies-table tr:nth-child(2n + 1) {
+  background-color: var(--table-first-background-color);
+}
+
+.movies-table img {
+  width: 130px;
+}
+
+.no-th {
+  width: 50px;
+}
+
+.title-th {
+  width: 150px;
+}
+
+.poster-th {
+  width: 130px;
+}
+
+.story-th {
+  width: 450px;
+}
+
+.shortcut-th {
+  width: 150px;
 }
